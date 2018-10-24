@@ -1,0 +1,39 @@
+{
+  "name": "APP",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "clean": "npm run start -- --reset-cache",
+    "link": "react-native link",
+    "setup": "npm install @babel/runtime prop-types react-navigation redux react-redux redux-thunk react-navigation-redux-helpers react-native-elements react-native-vector-icons react-native-localization  --@latest && npm run link",
+    "setup-dev": "npm install react-devtools eslint babel-cli babel-preset-react-native babel-eslint eslint-plugin-react eslint-plugin-react-native --@latest --save-dev",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "prop-types": "^15.6.2",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.3",
+    "react-native-elements": "^0.19.1",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-localization": "^2.0.1",
+    "react-native-vector-icons": "^6.0.2",
+    "react-navigation": "^2.18.1",
+    "react-navigation-redux-helpers": "^2.0.6",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
