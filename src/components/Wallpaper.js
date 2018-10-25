@@ -5,7 +5,7 @@ import { StyleSheet, Image, ImageBackground, activeOpacity } from 'react-native'
 
 
 // import bgSrc from '../assets/images/wallpaper.png';
-import bgSrc from '../assets/images/bg/bg1.png';
+import bgSrc from '../assets/images/bg/bg.png';
 
 export default class Wallpaper extends Component {
   render() {

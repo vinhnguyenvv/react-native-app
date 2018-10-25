@@ -7,16 +7,16 @@ import PropTypes from 'prop-types';
 import LinearGradient from 'react-native-linear-gradient';
 
 //components
-import Wallpaper from './../component/Wallpaper';
-import Logo from './../component/Logo';
-import Form from './../component/form/Form';
-import ButtonSubmit from './../component/form/ButtonSubmit';
-import SignupSection from './../component/form/SignupSection'
+import Wallpaper from './Wallpaper';
+import Logo from './Logo';
+import Form from './form/Form';
+import ButtonSubmit from './form/ButtonSubmit';
+import SignupSection from './form/SignupSection'
 //img
 // import bg from './assets/images/wallpaper.png';
 
 type Props = {};
-export default class LoginScreen extends Component<Props> {
+export default class LoginComponent extends Component<Props> {
   // static navigationOptions = {
   //   title: 'Welcome',
   // };
